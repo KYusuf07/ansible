@@ -12,7 +12,7 @@
 
 - name: PLAY-2
   hosts: local
-  connections: local
+  connection: local
   tasks:
   - name: PLAY-2 and TASK-2
     debug:
