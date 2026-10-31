@@ -19,7 +19,7 @@
   tasks:
     - name: Get current HTTP stats
       community.general.nginx_status_info:
-        url: http://13.218.233.199/nginx_status
+        url: http://172.31.31.198/nginx_status
         timeout: 10
       register: nginx_metrics
 
