@@ -7,6 +7,12 @@
       name: nginx
       state: present
 
+  - name: start nginx
+    service:
+        name: nginx
+        state: started
+        enabled: yes    
+
 
 - name: Fetch and display NGINX performance metrics
   hosts: frontend
