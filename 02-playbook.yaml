@@ -1,4 +1,4 @@
-- name: demon on debug
+- name: demo on debug
   hosts: local
   connection: local
   tasks:
