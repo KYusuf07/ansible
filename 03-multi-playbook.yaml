@@ -1,6 +1,6 @@
 - name: PLAY-1
   hosts: local
-  connections: local
+  connection: local
   tasks:
 - name: PLAY-1 and TASK-1
   debug:
