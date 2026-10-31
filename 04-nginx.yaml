@@ -5,3 +5,17 @@
     package:
       name: nginx
       state: present
+
+
+- name: Fetch and display NGINX performance metrics
+  hosts: frontend
+  tasks:
+    - name: Get current HTTP stats
+      community.general.nginx_status_info:
+        url: http://172.31.31.198/nginx_status
+        timeout: 10
+      register: nginx_metrics
+
+    - name: Print active connections
+      ansible.builtin.debug:
+        msg: "Active Connections: {{ nginx_metrics.active_connections }}"
