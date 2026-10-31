@@ -1,0 +1,32 @@
+- first_name: "Yusuf"
+  last_name: :K"
+  dob: 01-01-01
+  addresses:
+  - type: permanent
+    doorNo: 2-292
+    streetName: Hafeezpet
+    City: Hyderabad
+  - type: Temporary
+    doorNo: 2-292
+    streetName: Hafeezpet
+    City: Hyderabad
+  Skills:
+    OS: Linux
+    IDE: VSCode
+    CM: ansible  
+- first_name: "Yusuf"
+  last_name: :K"
+  dob: 01-01-01
+  addresses:
+  - type: permanent
+    doorNo: 2-292
+    streetName: Hafeezpet
+    City: Hyderabad
+  - type: Temporary
+    doorNo: 2-292
+    streetName: Hafeezpet
+    City: Hyderabad
+  Skills:
+    OS: Windows
+    IDE: VSCode
+    CM: ansible      

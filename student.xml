@@ -1,0 +1,19 @@
+<student>
+    <firstName>Yusuf</firstName>
+    <lastname>K</lastname>
+    <dob>01-01-2001</dob>
+    <addresses>
+        <address type="temporary">
+            <doorNo>2-293</doorNo>
+            <streetName>Hafeezpet</streetName>
+            <city>Hyderabad</city>
+        </address>
+        </address type="permanent">
+            <doorNo>2-293</doorNo>
+            <streetName>Hafeezpet</streetName>
+            <city>Hyderabad</city>
+        </address>
+    </addresses>
+</student>
+
+

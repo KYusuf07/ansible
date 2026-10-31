@@ -1,0 +1,24 @@
+{
+    "firstName": "Yusuf",
+    "lastName": "K",
+    "dob": "01-01-01",
+    "address":[
+        {
+            "type": "permanent",
+            "doorno": "4-292",
+            "Streetname": "hafeezpet",
+            "City": "hyderabad"
+        },
+        {
+            "type": "permanent",
+            "doorno": "4-292",
+            "Streetname": "hafeezpet",
+            "City": "hyderabad"
+        }
+    ],
+    "Skills": {
+        "OS": "Linux",
+        "IDE": "VSCode",
+        "CM": "ansible"
+        }
+}
