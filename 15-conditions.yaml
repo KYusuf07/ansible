@@ -1,0 +1,16 @@
+- name: print OS is redhat or not
+  hosts: local
+  connection: local
+  taska:
+  - name: print the OS_Family
+    debug:
+      msg: "OS distro is Redhat"
+    when: ansible_facts.os_family == "Redhat"
+    
+  - name: print the OS_Family
+    debug:
+      msg: "OS distro is Ubuntu"
+    when: ansible_facts.os_family == "Debain"  
+    
+
+
