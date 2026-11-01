@@ -1,7 +1,7 @@
 - name: print OS is redhat or not
   hosts: local
   connection: local
-  taska:
+  tasks:
   - name: print the OS_Family
     debug:
       msg: "OS distro is Redhat"
