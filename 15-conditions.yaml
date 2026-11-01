@@ -9,7 +9,7 @@
     when: ansible_facts.os_family == "Redhat"
     
   - name: Install nginx in debian
-    dbf:
+    dnf:
       state: "present"
       name: nginx
     when: ansible_facts.os_family == "Debian"  
