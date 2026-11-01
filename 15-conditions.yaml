@@ -3,13 +3,13 @@
   become: yes
   connection: local
   tasks:
-  - name: Install nginx in Redhat
+  - name: install nginx in Redhat
     dnf:
       state: present
       name: nginx
     when: ansible_facts.os_family == "Redhat"
     
-  - name: Install nginx in debian
+  - name: install nginx in debian
     apt:
       state: present
       name: nginx
